@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$black: #000000;
+$pink: #e8008a;
+$yellow: #c5f507;
+
+// Update the sans-serif font family
+$family-sans-serif: "oskari_g2bold", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$body-background-color: $black;
+$footer-background-color: $black;
+$link: white;
+$link-hover: white;
+
+// 4. Import the rest of Bulma
+
+@import "../node_modules/bulma/bulma";

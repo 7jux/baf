@@ -1,0 +1,54 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'oskari_g2bold';
+  src: url('../fonts/oskari_g2_bold-webfont.woff2') format('woff2'),
+    url('../fonts/oskari_g2_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+.content h2 {
+  margin-top: .0em !important;
+  margin-bottom: .25em !important;
+}
+
+.is-yellow {
+  color: #c5f507 !important;
+}
+
+.is-pink {
+  color: #e8008a !important;
+}
+
+.is-red {
+  color: #eb3537 !important;
+}
+
+.is-blue {
+  color: #19abed !important;
+}
+
+.names {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.names-odd {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.fab {
+  padding: .25em;
+}
+
+.is-tagline {
+  padding-top: .5em;
+}
