@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-transform: uppercase;
 }
 
@@ -19,20 +19,20 @@ h1, h2 {
   margin-bottom: .25em !important;
 }
 
-.is-yellow {
-  color: #c5f507 !important;
+.is-green {
+  color: #c3f200 !important;
 }
 
 .is-pink {
-  color: #e8008a !important;
+  color: #eb008b !important;
 }
 
 .is-red {
-  color: #eb3537 !important;
+  color: #ee4036 !important;
 }
 
 .is-blue {
-  color: #19abed !important;
+  color: #00adee !important;
 }
 
 .names {
