@@ -10,8 +10,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1, h2, h3 {
   text-transform: uppercase;
+}
+
+h3, p {
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 1px;
+
 }
 
 .content h2 {
@@ -47,8 +59,4 @@ h1, h2, h3 {
 
 .fab {
   padding: .25em;
-}
-
-.is-tagline {
-  padding-top: .5em;
 }

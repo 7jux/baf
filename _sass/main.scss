@@ -18,7 +18,11 @@ $body-background-color: $black;
 $footer-background-color: $black;
 $link: white;
 $link-hover: white;
+$primary: $pink;
 
 // 4. Import the rest of Bulma
 
 @import "../node_modules/bulma/bulma";
+
+// 5. Add the background hero image
+.has-bg-img { background: url('../img/background.png')center center; background-size:cover; }
