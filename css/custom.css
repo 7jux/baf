@@ -68,6 +68,6 @@ p {
   padding: .25em;
 }
 
-.content table thead td, .content table thead th {
-    border-width: 0 0 2px;
-    color: #ffffff;
+.is-schedule {
+  padding-bottom: 0em;
+}
