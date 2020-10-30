@@ -16,9 +16,12 @@ $family-sans-serif: "oskari_g2bold", "Arial", sans-serif;
 // Use the new pink as the primary color
 $body-background-color: $black;
 $footer-background-color: $black;
-$link: white;
-$link-hover: white;
+$link: $white;
+$link-hover: $white;
 $primary: $pink;
+$table-color: $white;
+$table-background-color: $black;
+$table-cell-heading-color: $primary;
 
 // 4. Import the rest of Bulma
 

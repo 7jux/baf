@@ -2508,8 +2508,8 @@ a.box:active {
     background-position: -200% 0; } }
 
 .table {
-  background-color: white;
-  color: #363636; }
+  background-color: #000000;
+  color: white; }
   .table td,
   .table th {
     border: 1px solid #dbdbdb;
@@ -2580,7 +2580,7 @@ a.box:active {
       .table th.is-selected strong {
         color: currentColor; }
   .table th {
-    color: #363636; }
+    color: #eb00ab; }
     .table th:not([align]) {
       text-align: left; }
   .table tr.is-selected {
